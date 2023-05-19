@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14ECE26A-9C26-4566-B251-42A169FDD2DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Threshr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9792F0E812D570C4FF5E7D56D23AE3D6D780F87D</key>
+		<string>https://github.com/Orooso/threshr-ios.git</string>
+		<key>FF4290762CEC79F85CF05FA7724B689D85F75D52</key>
+		<string>https://github.com/Orooso/orooso-lib-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Threshr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9792F0E812D570C4FF5E7D56D23AE3D6D780F87D</key>
+		<string>../..</string>
+		<key>FF4290762CEC79F85CF05FA7724B689D85F75D52</key>
+		<string>../../../orooso-lib-ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Orooso/threshr-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9792F0E812D570C4FF5E7D56D23AE3D6D780F87D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF4290762CEC79F85CF05FA7724B689D85F75D52</string>
+			<key>IDESourceControlWCCName</key>
+			<string>orooso-lib-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9792F0E812D570C4FF5E7D56D23AE3D6D780F87D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>threshr-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

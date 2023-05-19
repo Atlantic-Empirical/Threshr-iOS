@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0EB31017A8577F004D5F52 /* ORTweetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0EB30E17A8577F004D5F52 /* ORTweetsViewController.m */; };
+		5B0EB31117A8577F004D5F52 /* ORTweetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0EB30F17A8577F004D5F52 /* ORTweetsViewController.xib */; };
+		5B0EB31517A8610B004D5F52 /* ORTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0EB31417A8610B004D5F52 /* ORTweetCell.m */; };
+		5B0EB31717A8612E004D5F52 /* ORTweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0EB31617A8612E004D5F52 /* ORTweetCell.xib */; };
+		5B0EB31D17A87B3C004D5F52 /* ORReplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0EB31B17A87B3B004D5F52 /* ORReplyViewController.m */; };
+		5B0EB31E17A87B3C004D5F52 /* ORReplyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0EB31C17A87B3B004D5F52 /* ORReplyViewController.xib */; };
+		5B1E2F471AF4430300927434 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1E2F461AF4430300927434 /* Crashlytics.framework */; };
+		5B5D7A4817A1DC48003C047D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A4717A1DC48003C047D /* UIKit.framework */; };
+		5B5D7A4A17A1DC48003C047D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A4917A1DC48003C047D /* Foundation.framework */; };
+		5B5D7A4C17A1DC48003C047D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A4B17A1DC48003C047D /* CoreGraphics.framework */; };
+		5B5D7A5217A1DC48003C047D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D7A5017A1DC48003C047D /* InfoPlist.strings */; };
+		5B5D7A5417A1DC48003C047D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D7A5317A1DC48003C047D /* main.m */; };
+		5B5D7A5817A1DC48003C047D /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D7A5717A1DC48003C047D /* ORAppDelegate.m */; };
+		5B5D7A5A17A1DC48003C047D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D7A5917A1DC48003C047D /* Default.png */; };
+		5B5D7A5C17A1DC48003C047D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D7A5B17A1DC48003C047D /* Default@2x.png */; };
+		5B5D7A5E17A1DC48003C047D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D7A5D17A1DC48003C047D /* Default-568h@2x.png */; };
+		5B5D7A7C17A1DE34003C047D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A7B17A1DE34003C047D /* CFNetwork.framework */; };
+		5B5D7A7E17A1DE3D003C047D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A7D17A1DE3D003C047D /* SystemConfiguration.framework */; };
+		5B5D7A8017A1DE46003C047D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A7F17A1DE46003C047D /* Security.framework */; };
+		5B5D7A8517A1DE6D003C047D /* libOroosoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A7817A1DDDC003C047D /* libOroosoLib.a */; };
+		5B5D7A8617A1DE8B003C047D /* OroosoLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D7A7A17A1DDDC003C047D /* OroosoLib.bundle */; };
+		5B5D7A9017A1E0CC003C047D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A8F17A1E0CC003C047D /* AddressBook.framework */; };
+		5B5D7A9217A1E0D2003C047D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A9117A1E0D2003C047D /* Twitter.framework */; };
+		5B5D7A9417A1E118003C047D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A9317A1E118003C047D /* Accounts.framework */; };
+		5B5D7A9617A1E139003C047D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A9517A1E139003C047D /* libz.1.2.5.dylib */; };
+		5B5D7A9817A1E14F003C047D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A9717A1E14F003C047D /* CoreData.framework */; };
+		5B5D7A9A17A1E15F003C047D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5D7A9917A1E15F003C047D /* CoreTelephony.framework */; };
+		5B5D7A9F17A1E547003C047D /* ORTHLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D7A9D17A1E547003C047D /* ORTHLViewController.m */; };
+		5B5D7AA017A1E547003C047D /* ORTHLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D7A9E17A1E547003C047D /* ORTHLViewController.xib */; };
+		5B5D7AB117A1E7AC003C047D /* ORSFCardTwitterURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D7AAD17A1E7AC003C047D /* ORSFCardTwitterURL.m */; };
+		5B5D7AB217A1E7AC003C047D /* ORSFCardTwitterURL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D7AAE17A1E7AC003C047D /* ORSFCardTwitterURL.xib */; };
+		5B5D7AB317A1E7AC003C047D /* ORSyncFlowCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D7AB017A1E7AC003C047D /* ORSyncFlowCard.m */; };
+		5B5D7ABA17A1E8E8003C047D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D7AB717A1E8E8003C047D /* LICENSE */; };
+		5B5D7ABB17A1E8E8003C047D /* STTweetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D7AB917A1E8E8003C047D /* STTweetLabel.m */; };
+		5B622E5017BEA4140073B90E /* ORSFCardStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B622E4E17BEA4140073B90E /* ORSFCardStats.m */; };
+		5B622E5117BEA4140073B90E /* ORSFCardStats.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B622E4F17BEA4140073B90E /* ORSFCardStats.xib */; };
+		5B75D67D17A2E15700AD2FE3 /* ORWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B75D67B17A2E15700AD2FE3 /* ORWebView.m */; };
+		5B75D67E17A2E15700AD2FE3 /* ORWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B75D67C17A2E15700AD2FE3 /* ORWebView.xib */; };
+		5B92BF6E18FC5BC400C26A17 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92BF6D18FC5BC400C26A17 /* Accelerate.framework */; };
+		5B92BF7018FC5BCF00C26A17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92BF6F18FC5BCF00C26A17 /* QuartzCore.framework */; };
+		5BA979A817AAF7E800480F54 /* ORTHLEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA979A717AAF7E800480F54 /* ORTHLEngine.m */; };
+		5BAAB22017AC3449009BE87E /* ORProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAAB21E17AC3449009BE87E /* ORProfileViewController.m */; };
+		5BAAB22117AC3449009BE87E /* ORProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAAB21F17AC3449009BE87E /* ORProfileViewController.xib */; };
+		5BB1FE1117B2B14200589062 /* ORActivityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1FE1017B2B14200589062 /* ORActivityProvider.m */; };
+		5BFA202C17E27D0700D41CF4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFA202B17E27D0700D41CF4 /* CoreLocation.framework */; };
+		E60268A71805EFC500202DDE /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E60268A61805EFC500202DDE /* libFlurry_4.2.4.a */; };
+		E644F99A17BD8AAB0004158E /* ORCallToAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E644F99817BD8AAB0004158E /* ORCallToAction.m */; };
+		E644F99B17BD8AAB0004158E /* ORCallToAction.xib in Resources */ = {isa = PBXBuildFile; fileRef = E644F99917BD8AAB0004158E /* ORCallToAction.xib */; };
+		E684D5C917A9FEDB00B2DBCE /* chev-left-blue-10x30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E684D5C717A9FEDB00B2DBCE /* chev-left-blue-10x30@2x.png */; };
+		E684D5CA17A9FEDB00B2DBCE /* chev-left-blue-10x30.png in Resources */ = {isa = PBXBuildFile; fileRef = E684D5C817A9FEDB00B2DBCE /* chev-left-blue-10x30.png */; };
+		E684D5CD17AA002E00B2DBCE /* threshr-wm-icon-57x.png in Resources */ = {isa = PBXBuildFile; fileRef = E684D5CC17AA002E00B2DBCE /* threshr-wm-icon-57x.png */; };
+		E684D5CF17AA003100B2DBCE /* threshr-wm-icon-114x.png in Resources */ = {isa = PBXBuildFile; fileRef = E684D5CE17AA003100B2DBCE /* threshr-wm-icon-114x.png */; };
+		E692A89617AB50A2006A6030 /* SORelativeDateTransformer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E692A89517AB50A2006A6030 /* SORelativeDateTransformer.bundle */; };
+		E698A72D17B4550100E9E887 /* ORShareEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E698A72C17B4550100E9E887 /* ORShareEngine.m */; };
+		E698A73C17B7EB5A00E9E887 /* ORAccountPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E698A73A17B7EB5A00E9E887 /* ORAccountPickerViewController.m */; };
+		E698A73D17B7EB5A00E9E887 /* ORAccountPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E698A73B17B7EB5A00E9E887 /* ORAccountPickerViewController.xib */; };
+		E698B4D017A8164A006BB2CF /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E698B4CD17A8164A006BB2CF /* iRate.bundle */; };
+		E698B4D117A8164A006BB2CF /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = E698B4CF17A8164A006BB2CF /* iRate.m */; };
+		E698B4D517A81705006BB2CF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E698B4D417A81705006BB2CF /* StoreKit.framework */; };
+		E69C926317AC53A50028605F /* sprocket-polaris-24x.png in Resources */ = {isa = PBXBuildFile; fileRef = E69C926217AC53A50028605F /* sprocket-polaris-24x.png */; };
+		E69C926517AC53D30028605F /* sprocket-polaris-24x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E69C926417AC53D30028605F /* sprocket-polaris-24x@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B5D7A7717A1DDDC003C047D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5D7A7117A1DDDB003C047D /* OroosoLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BE25AFC165D553F00586A7A;
+			remoteInfo = OroosoLib;
+		};
+		5B5D7A7917A1DDDC003C047D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5D7A7117A1DDDB003C047D /* OroosoLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BE25B23165D5E1C00586A7A;
+			remoteInfo = OroosoLibResources;
+		};
+		5B5D7A8117A1DE59003C047D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5D7A7117A1DDDB003C047D /* OroosoLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE25AFB165D553F00586A7A;
+			remoteInfo = OroosoLib;
+		};
+		5B5D7A8317A1DE5D003C047D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5D7A7117A1DDDB003C047D /* OroosoLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE25B22165D5E1C00586A7A;
+			remoteInfo = OroosoLibResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B0EB30D17A8577F004D5F52 /* ORTweetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTweetsViewController.h; sourceTree = "<group>"; };
+		5B0EB30E17A8577F004D5F52 /* ORTweetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTweetsViewController.m; sourceTree = "<group>"; };
+		5B0EB30F17A8577F004D5F52 /* ORTweetsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORTweetsViewController.xib; sourceTree = "<group>"; };
+		5B0EB31317A8610B004D5F52 /* ORTweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTweetCell.h; sourceTree = "<group>"; };
+		5B0EB31417A8610B004D5F52 /* ORTweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTweetCell.m; sourceTree = "<group>"; };
+		5B0EB31617A8612E004D5F52 /* ORTweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORTweetCell.xib; sourceTree = "<group>"; };
+		5B0EB31A17A87B3B004D5F52 /* ORReplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORReplyViewController.h; sourceTree = "<group>"; };
+		5B0EB31B17A87B3B004D5F52 /* ORReplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORReplyViewController.m; sourceTree = "<group>"; };
+		5B0EB31C17A87B3B004D5F52 /* ORReplyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORReplyViewController.xib; sourceTree = "<group>"; };
+		5B0EB31F17A87CEF004D5F52 /* ORModalViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORModalViewDelegate.h; sourceTree = "<group>"; };
+		5B1E2F461AF4430300927434 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		5B5D7A4417A1DC48003C047D /* threshr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threshr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5D7A4717A1DC48003C047D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B5D7A4917A1DC48003C047D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B5D7A4B17A1DC48003C047D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B5D7A4F17A1DC48003C047D /* Threshr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Threshr-Info.plist"; sourceTree = "<group>"; };
+		5B5D7A5117A1DC48003C047D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B5D7A5317A1DC48003C047D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B5D7A5517A1DC48003C047D /* Threshr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Threshr-Prefix.pch"; sourceTree = "<group>"; };
+		5B5D7A5617A1DC48003C047D /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
+		5B5D7A5717A1DC48003C047D /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
+		5B5D7A5917A1DC48003C047D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B5D7A5B17A1DC48003C047D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B5D7A5D17A1DC48003C047D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B5D7A7117A1DDDB003C047D /* OroosoLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OroosoLib.xcodeproj; path = "../orooso-lib-ios/OroosoLib.xcodeproj"; sourceTree = "<group>"; };
+		5B5D7A7B17A1DE34003C047D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5B5D7A7D17A1DE3D003C047D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5B5D7A7F17A1DE46003C047D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5B5D7A8F17A1E0CC003C047D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5B5D7A9117A1E0D2003C047D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		5B5D7A9317A1E118003C047D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5B5D7A9517A1E139003C047D /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		5B5D7A9717A1E14F003C047D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B5D7A9917A1E15F003C047D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5B5D7A9C17A1E547003C047D /* ORTHLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTHLViewController.h; sourceTree = "<group>"; };
+		5B5D7A9D17A1E547003C047D /* ORTHLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTHLViewController.m; sourceTree = "<group>"; };
+		5B5D7A9E17A1E547003C047D /* ORTHLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORTHLViewController.xib; sourceTree = "<group>"; };
+		5B5D7AAC17A1E7AC003C047D /* ORSFCardTwitterURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSFCardTwitterURL.h; sourceTree = "<group>"; };
+		5B5D7AAD17A1E7AC003C047D /* ORSFCardTwitterURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSFCardTwitterURL.m; sourceTree = "<group>"; };
+		5B5D7AAE17A1E7AC003C047D /* ORSFCardTwitterURL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORSFCardTwitterURL.xib; sourceTree = "<group>"; };
+		5B5D7AAF17A1E7AC003C047D /* ORSyncFlowCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSyncFlowCard.h; sourceTree = "<group>"; };
+		5B5D7AB017A1E7AC003C047D /* ORSyncFlowCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSyncFlowCard.m; sourceTree = "<group>"; };
+		5B5D7AB417A1E807003C047D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5B5D7AB717A1E8E8003C047D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5B5D7AB817A1E8E8003C047D /* STTweetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTweetLabel.h; sourceTree = "<group>"; };
+		5B5D7AB917A1E8E8003C047D /* STTweetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTweetLabel.m; sourceTree = "<group>"; };
+		5B622E4D17BEA4140073B90E /* ORSFCardStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSFCardStats.h; sourceTree = "<group>"; };
+		5B622E4E17BEA4140073B90E /* ORSFCardStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSFCardStats.m; sourceTree = "<group>"; };
+		5B622E4F17BEA4140073B90E /* ORSFCardStats.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORSFCardStats.xib; sourceTree = "<group>"; };
+		5B75D67A17A2E15700AD2FE3 /* ORWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORWebView.h; sourceTree = "<group>"; };
+		5B75D67B17A2E15700AD2FE3 /* ORWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORWebView.m; sourceTree = "<group>"; };
+		5B75D67C17A2E15700AD2FE3 /* ORWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORWebView.xib; sourceTree = "<group>"; };
+		5B92BF6D18FC5BC400C26A17 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		5B92BF6F18FC5BCF00C26A17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5BA979A617AAF7E800480F54 /* ORTHLEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTHLEngine.h; sourceTree = "<group>"; };
+		5BA979A717AAF7E800480F54 /* ORTHLEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTHLEngine.m; sourceTree = "<group>"; };
+		5BAAB21D17AC3449009BE87E /* ORProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORProfileViewController.h; sourceTree = "<group>"; };
+		5BAAB21E17AC3449009BE87E /* ORProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORProfileViewController.m; sourceTree = "<group>"; };
+		5BAAB21F17AC3449009BE87E /* ORProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORProfileViewController.xib; sourceTree = "<group>"; };
+		5BB1FE0F17B2B14200589062 /* ORActivityProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORActivityProvider.h; sourceTree = "<group>"; };
+		5BB1FE1017B2B14200589062 /* ORActivityProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORActivityProvider.m; sourceTree = "<group>"; };
+		5BFA202B17E27D0700D41CF4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E60268A51805EFC500202DDE /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		E60268A61805EFC500202DDE /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.4.a; sourceTree = "<group>"; };
+		E644F99717BD8AAB0004158E /* ORCallToAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCallToAction.h; sourceTree = "<group>"; };
+		E644F99817BD8AAB0004158E /* ORCallToAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORCallToAction.m; sourceTree = "<group>"; };
+		E644F99917BD8AAB0004158E /* ORCallToAction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORCallToAction.xib; sourceTree = "<group>"; };
+		E684D5C717A9FEDB00B2DBCE /* chev-left-blue-10x30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chev-left-blue-10x30@2x.png"; path = "WhaleHunter/chev-left-blue-10x30@2x.png"; sourceTree = SOURCE_ROOT; };
+		E684D5C817A9FEDB00B2DBCE /* chev-left-blue-10x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chev-left-blue-10x30.png"; path = "WhaleHunter/chev-left-blue-10x30.png"; sourceTree = SOURCE_ROOT; };
+		E684D5CC17AA002E00B2DBCE /* threshr-wm-icon-57x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "threshr-wm-icon-57x.png"; path = "../threshr-wm-icon-57x.png"; sourceTree = "<group>"; };
+		E684D5CE17AA003100B2DBCE /* threshr-wm-icon-114x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "threshr-wm-icon-114x.png"; path = "../threshr-wm-icon-114x.png"; sourceTree = "<group>"; };
+		E692A89517AB50A2006A6030 /* SORelativeDateTransformer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SORelativeDateTransformer.bundle; sourceTree = "<group>"; };
+		E698A72B17B4550100E9E887 /* ORShareEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORShareEngine.h; sourceTree = "<group>"; };
+		E698A72C17B4550100E9E887 /* ORShareEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORShareEngine.m; sourceTree = "<group>"; };
+		E698A73917B7EB5A00E9E887 /* ORAccountPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORAccountPickerViewController.h; sourceTree = "<group>"; };
+		E698A73A17B7EB5A00E9E887 /* ORAccountPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORAccountPickerViewController.m; sourceTree = "<group>"; };
+		E698A73B17B7EB5A00E9E887 /* ORAccountPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ORAccountPickerViewController.xib; sourceTree = "<group>"; };
+		E698B4CD17A8164A006BB2CF /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = iRate.bundle; path = iRate/iRate.bundle; sourceTree = "<group>"; };
+		E698B4CE17A8164A006BB2CF /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iRate.h; path = iRate/iRate.h; sourceTree = "<group>"; };
+		E698B4CF17A8164A006BB2CF /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRate.m; path = iRate/iRate.m; sourceTree = "<group>"; };
+		E698B4D417A81705006BB2CF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E69C926217AC53A50028605F /* sprocket-polaris-24x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sprocket-polaris-24x.png"; path = "WhaleHunter/sprocket-polaris-24x.png"; sourceTree = SOURCE_ROOT; };
+		E69C926417AC53D30028605F /* sprocket-polaris-24x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sprocket-polaris-24x@2x.png"; path = "WhaleHunter/sprocket-polaris-24x@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5D7A4117A1DC48003C047D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B92BF7018FC5BCF00C26A17 /* QuartzCore.framework in Frameworks */,
+				5B92BF6E18FC5BC400C26A17 /* Accelerate.framework in Frameworks */,
+				5B1E2F471AF4430300927434 /* Crashlytics.framework in Frameworks */,
+				E60268A71805EFC500202DDE /* libFlurry_4.2.4.a in Frameworks */,
+				5BFA202C17E27D0700D41CF4 /* CoreLocation.framework in Frameworks */,
+				E698B4D517A81705006BB2CF /* StoreKit.framework in Frameworks */,
+				5B5D7A8517A1DE6D003C047D /* libOroosoLib.a in Frameworks */,
+				5B5D7A9617A1E139003C047D /* libz.1.2.5.dylib in Frameworks */,
+				5B5D7A9A17A1E15F003C047D /* CoreTelephony.framework in Frameworks */,
+				5B5D7A9817A1E14F003C047D /* CoreData.framework in Frameworks */,
+				5B5D7A9217A1E0D2003C047D /* Twitter.framework in Frameworks */,
+				5B5D7A9017A1E0CC003C047D /* AddressBook.framework in Frameworks */,
+				5B5D7A9417A1E118003C047D /* Accounts.framework in Frameworks */,
+				5B5D7A8017A1DE46003C047D /* Security.framework in Frameworks */,
+				5B5D7A7E17A1DE3D003C047D /* SystemConfiguration.framework in Frameworks */,
+				5B5D7A7C17A1DE34003C047D /* CFNetwork.framework in Frameworks */,
+				5B5D7A4817A1DC48003C047D /* UIKit.framework in Frameworks */,
+				5B5D7A4A17A1DC48003C047D /* Foundation.framework in Frameworks */,
+				5B5D7A4C17A1DC48003C047D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5D7A3B17A1DC48003C047D = {
+			isa = PBXGroup;
+			children = (
+				5B5D7A4D17A1DC48003C047D /* WhaleHunter */,
+				5B5D7AB517A1E8BE003C047D /* Vendor */,
+				5B5D7A4617A1DC48003C047D /* Frameworks */,
+				5B5D7A4517A1DC48003C047D /* Products */,
+				5B5D7A7117A1DDDB003C047D /* OroosoLib.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		5B5D7A4517A1DC48003C047D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D7A4417A1DC48003C047D /* threshr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5D7A4617A1DC48003C047D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E2F461AF4430300927434 /* Crashlytics.framework */,
+				5B92BF6F18FC5BCF00C26A17 /* QuartzCore.framework */,
+				5B92BF6D18FC5BC400C26A17 /* Accelerate.framework */,
+				5BFA202B17E27D0700D41CF4 /* CoreLocation.framework */,
+				E698B4D417A81705006BB2CF /* StoreKit.framework */,
+				5B5D7A4717A1DC48003C047D /* UIKit.framework */,
+				5B5D7A4917A1DC48003C047D /* Foundation.framework */,
+				5B5D7A4B17A1DC48003C047D /* CoreGraphics.framework */,
+				5B5D7A7F17A1DE46003C047D /* Security.framework */,
+				5B5D7A7D17A1DE3D003C047D /* SystemConfiguration.framework */,
+				5B5D7A7B17A1DE34003C047D /* CFNetwork.framework */,
+				5B5D7A8F17A1E0CC003C047D /* AddressBook.framework */,
+				5B5D7A9317A1E118003C047D /* Accounts.framework */,
+				5B5D7A9117A1E0D2003C047D /* Twitter.framework */,
+				5B5D7A9717A1E14F003C047D /* CoreData.framework */,
+				5B5D7A9917A1E15F003C047D /* CoreTelephony.framework */,
+				5B5D7A9517A1E139003C047D /* libz.1.2.5.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B5D7A4D17A1DC48003C047D /* WhaleHunter */ = {
+			isa = PBXGroup;
+			children = (
+				5BA979A417AAF7DE00480F54 /* Engine */,
+				5BB1FE0D17B2B11C00589062 /* Sharing */,
+				5B5D7ABC17A1F2F7003C047D /* SF Cards */,
+				5B5D7ABD17A1F307003C047D /* View Controllers */,
+				5B5D7A4E17A1DC48003C047D /* Supporting Files */,
+				5B5D7A5617A1DC48003C047D /* ORAppDelegate.h */,
+				5B5D7A5717A1DC48003C047D /* ORAppDelegate.m */,
+				5B0EB31F17A87CEF004D5F52 /* ORModalViewDelegate.h */,
+			);
+			path = WhaleHunter;
+			sourceTree = "<group>";
+		};
+		5B5D7A4E17A1DC48003C047D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E684D5CE17AA003100B2DBCE /* threshr-wm-icon-114x.png */,
+				E684D5CC17AA002E00B2DBCE /* threshr-wm-icon-57x.png */,
+				5B75D68217A2EA0E00AD2FE3 /* Resources */,
+				5B5D7A4F17A1DC48003C047D /* Threshr-Info.plist */,
+				5B5D7A5017A1DC48003C047D /* InfoPlist.strings */,
+				5B5D7A5317A1DC48003C047D /* main.m */,
+				5B5D7A5917A1DC48003C047D /* Default.png */,
+				5B5D7A5B17A1DC48003C047D /* Default@2x.png */,
+				5B5D7A5D17A1DC48003C047D /* Default-568h@2x.png */,
+				5B5D7A5517A1DC48003C047D /* Threshr-Prefix.pch */,
+				5B5D7AB417A1E807003C047D /* Constants.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B5D7A7217A1DDDB003C047D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D7A7817A1DDDC003C047D /* libOroosoLib.a */,
+				5B5D7A7A17A1DDDC003C047D /* OroosoLib.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5D7AB517A1E8BE003C047D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E60268A41805EFC500202DDE /* Flurry */,
+				E692A89517AB50A2006A6030 /* SORelativeDateTransformer.bundle */,
+				E698B4CB17A8163C006BB2CF /* iRate */,
+				5B5D7AB617A1E8E8003C047D /* STTweetLabel */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		5B5D7AB617A1E8E8003C047D /* STTweetLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D7AB717A1E8E8003C047D /* LICENSE */,
+				5B5D7AB817A1E8E8003C047D /* STTweetLabel.h */,
+				5B5D7AB917A1E8E8003C047D /* STTweetLabel.m */,
+			);
+			path = STTweetLabel;
+			sourceTree = "<group>";
+		};
+		5B5D7ABC17A1F2F7003C047D /* SF Cards */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D7AAF17A1E7AC003C047D /* ORSyncFlowCard.h */,
+				5B5D7AB017A1E7AC003C047D /* ORSyncFlowCard.m */,
+				5B5D7AAC17A1E7AC003C047D /* ORSFCardTwitterURL.h */,
+				5B5D7AAD17A1E7AC003C047D /* ORSFCardTwitterURL.m */,
+				5B5D7AAE17A1E7AC003C047D /* ORSFCardTwitterURL.xib */,
+				5B622E4D17BEA4140073B90E /* ORSFCardStats.h */,
+				5B622E4E17BEA4140073B90E /* ORSFCardStats.m */,
+				5B622E4F17BEA4140073B90E /* ORSFCardStats.xib */,
+				5B0EB31317A8610B004D5F52 /* ORTweetCell.h */,
+				5B0EB31417A8610B004D5F52 /* ORTweetCell.m */,
+				5B0EB31617A8612E004D5F52 /* ORTweetCell.xib */,
+			);
+			name = "SF Cards";
+			sourceTree = "<group>";
+		};
+		5B5D7ABD17A1F307003C047D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BAAB21D17AC3449009BE87E /* ORProfileViewController.h */,
+				5BAAB21E17AC3449009BE87E /* ORProfileViewController.m */,
+				5BAAB21F17AC3449009BE87E /* ORProfileViewController.xib */,
+				5B75D67A17A2E15700AD2FE3 /* ORWebView.h */,
+				5B75D67B17A2E15700AD2FE3 /* ORWebView.m */,
+				5B75D67C17A2E15700AD2FE3 /* ORWebView.xib */,
+				5B5D7A9C17A1E547003C047D /* ORTHLViewController.h */,
+				5B5D7A9D17A1E547003C047D /* ORTHLViewController.m */,
+				5B5D7A9E17A1E547003C047D /* ORTHLViewController.xib */,
+				5B0EB30D17A8577F004D5F52 /* ORTweetsViewController.h */,
+				5B0EB30E17A8577F004D5F52 /* ORTweetsViewController.m */,
+				5B0EB30F17A8577F004D5F52 /* ORTweetsViewController.xib */,
+				5B0EB31A17A87B3B004D5F52 /* ORReplyViewController.h */,
+				5B0EB31B17A87B3B004D5F52 /* ORReplyViewController.m */,
+				5B0EB31C17A87B3B004D5F52 /* ORReplyViewController.xib */,
+				E698A73917B7EB5A00E9E887 /* ORAccountPickerViewController.h */,
+				E698A73A17B7EB5A00E9E887 /* ORAccountPickerViewController.m */,
+				E698A73B17B7EB5A00E9E887 /* ORAccountPickerViewController.xib */,
+				E644F99717BD8AAB0004158E /* ORCallToAction.h */,
+				E644F99817BD8AAB0004158E /* ORCallToAction.m */,
+				E644F99917BD8AAB0004158E /* ORCallToAction.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5B75D68217A2EA0E00AD2FE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E69C926417AC53D30028605F /* sprocket-polaris-24x@2x.png */,
+				E69C926217AC53A50028605F /* sprocket-polaris-24x.png */,
+				E684D5C717A9FEDB00B2DBCE /* chev-left-blue-10x30@2x.png */,
+				E684D5C817A9FEDB00B2DBCE /* chev-left-blue-10x30.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BA979A417AAF7DE00480F54 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				5BA979A617AAF7E800480F54 /* ORTHLEngine.h */,
+				5BA979A717AAF7E800480F54 /* ORTHLEngine.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		5BB1FE0D17B2B11C00589062 /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1FE0F17B2B14200589062 /* ORActivityProvider.h */,
+				5BB1FE1017B2B14200589062 /* ORActivityProvider.m */,
+				E698A72B17B4550100E9E887 /* ORShareEngine.h */,
+				E698A72C17B4550100E9E887 /* ORShareEngine.m */,
+			);
+			name = Sharing;
+			sourceTree = "<group>";
+		};
+		E60268A41805EFC500202DDE /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				E60268A51805EFC500202DDE /* Flurry.h */,
+				E60268A61805EFC500202DDE /* libFlurry_4.2.4.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		E698B4CB17A8163C006BB2CF /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				E698B4CD17A8164A006BB2CF /* iRate.bundle */,
+				E698B4CE17A8164A006BB2CF /* iRate.h */,
+				E698B4CF17A8164A006BB2CF /* iRate.m */,
+			);
+			name = iRate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B5D7A4317A1DC48003C047D /* Threshr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5D7A6D17A1DC48003C047D /* Build configuration list for PBXNativeTarget "Threshr" */;
+			buildPhases = (
+				5B5D7A4017A1DC48003C047D /* Sources */,
+				5B5D7A4117A1DC48003C047D /* Frameworks */,
+				5B5D7A4217A1DC48003C047D /* Resources */,
+				5B1E2F451AF442CE00927434 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B5D7A8217A1DE59003C047D /* PBXTargetDependency */,
+				5B5D7A8417A1DE5D003C047D /* PBXTargetDependency */,
+			);
+			name = Threshr;
+			productName = WhaleHunter;
+			productReference = 5B5D7A4417A1DC48003C047D /* threshr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B5D7A3C17A1DC48003C047D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Orooso;
+				TargetAttributes = {
+					5B5D7A4317A1DC48003C047D = {
+						DevelopmentTeam = V9QA6L6849;
+					};
+				};
+			};
+			buildConfigurationList = 5B5D7A3F17A1DC48003C047D /* Build configuration list for PBXProject "Threshr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B5D7A3B17A1DC48003C047D;
+			productRefGroup = 5B5D7A4517A1DC48003C047D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5B5D7A7217A1DDDB003C047D /* Products */;
+					ProjectRef = 5B5D7A7117A1DDDB003C047D /* OroosoLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5B5D7A4317A1DC48003C047D /* Threshr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5B5D7A7817A1DDDC003C047D /* libOroosoLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOroosoLib.a;
+			remoteRef = 5B5D7A7717A1DDDC003C047D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B5D7A7A17A1DDDC003C047D /* OroosoLib.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OroosoLib.bundle;
+			remoteRef = 5B5D7A7917A1DDDC003C047D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B5D7A4217A1DC48003C047D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5D7A8617A1DE8B003C047D /* OroosoLib.bundle in Resources */,
+				5B5D7A5217A1DC48003C047D /* InfoPlist.strings in Resources */,
+				5B5D7A5A17A1DC48003C047D /* Default.png in Resources */,
+				5B5D7A5C17A1DC48003C047D /* Default@2x.png in Resources */,
+				5B5D7A5E17A1DC48003C047D /* Default-568h@2x.png in Resources */,
+				5B5D7AA017A1E547003C047D /* ORTHLViewController.xib in Resources */,
+				5B5D7AB217A1E7AC003C047D /* ORSFCardTwitterURL.xib in Resources */,
+				5B5D7ABA17A1E8E8003C047D /* LICENSE in Resources */,
+				5B75D67E17A2E15700AD2FE3 /* ORWebView.xib in Resources */,
+				E698B4D017A8164A006BB2CF /* iRate.bundle in Resources */,
+				5B0EB31117A8577F004D5F52 /* ORTweetsViewController.xib in Resources */,
+				5B0EB31717A8612E004D5F52 /* ORTweetCell.xib in Resources */,
+				5B0EB31E17A87B3C004D5F52 /* ORReplyViewController.xib in Resources */,
+				E684D5C917A9FEDB00B2DBCE /* chev-left-blue-10x30@2x.png in Resources */,
+				E684D5CA17A9FEDB00B2DBCE /* chev-left-blue-10x30.png in Resources */,
+				E684D5CD17AA002E00B2DBCE /* threshr-wm-icon-57x.png in Resources */,
+				E684D5CF17AA003100B2DBCE /* threshr-wm-icon-114x.png in Resources */,
+				E692A89617AB50A2006A6030 /* SORelativeDateTransformer.bundle in Resources */,
+				5BAAB22117AC3449009BE87E /* ORProfileViewController.xib in Resources */,
+				E69C926317AC53A50028605F /* sprocket-polaris-24x.png in Resources */,
+				E69C926517AC53D30028605F /* sprocket-polaris-24x@2x.png in Resources */,
+				E698A73D17B7EB5A00E9E887 /* ORAccountPickerViewController.xib in Resources */,
+				E644F99B17BD8AAB0004158E /* ORCallToAction.xib in Resources */,
+				5B622E5117BEA4140073B90E /* ORSFCardStats.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B1E2F451AF442CE00927434 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 5a11c8640615cf918918506da693d71a374cc45b bd72b4c76df5a3b98cd20fcf18cbcd8799c598972031fa62c51d42d825bf1667";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B5D7A4017A1DC48003C047D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5D7A5417A1DC48003C047D /* main.m in Sources */,
+				5B5D7A5817A1DC48003C047D /* ORAppDelegate.m in Sources */,
+				5B5D7A9F17A1E547003C047D /* ORTHLViewController.m in Sources */,
+				5B5D7AB117A1E7AC003C047D /* ORSFCardTwitterURL.m in Sources */,
+				5B5D7AB317A1E7AC003C047D /* ORSyncFlowCard.m in Sources */,
+				5B5D7ABB17A1E8E8003C047D /* STTweetLabel.m in Sources */,
+				5B75D67D17A2E15700AD2FE3 /* ORWebView.m in Sources */,
+				E698B4D117A8164A006BB2CF /* iRate.m in Sources */,
+				5B0EB31017A8577F004D5F52 /* ORTweetsViewController.m in Sources */,
+				5B0EB31517A8610B004D5F52 /* ORTweetCell.m in Sources */,
+				5B0EB31D17A87B3C004D5F52 /* ORReplyViewController.m in Sources */,
+				5BA979A817AAF7E800480F54 /* ORTHLEngine.m in Sources */,
+				5BAAB22017AC3449009BE87E /* ORProfileViewController.m in Sources */,
+				5BB1FE1117B2B14200589062 /* ORActivityProvider.m in Sources */,
+				E698A72D17B4550100E9E887 /* ORShareEngine.m in Sources */,
+				E698A73C17B7EB5A00E9E887 /* ORAccountPickerViewController.m in Sources */,
+				E644F99A17BD8AAB0004158E /* ORCallToAction.m in Sources */,
+				5B622E5017BEA4140073B90E /* ORSFCardStats.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B5D7A8217A1DE59003C047D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OroosoLib;
+			targetProxy = 5B5D7A8117A1DE59003C047D /* PBXContainerItemProxy */;
+		};
+		5B5D7A8417A1DE5D003C047D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OroosoLibResources;
+			targetProxy = 5B5D7A8317A1DE5D003C047D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B5D7A5017A1DC48003C047D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5D7A5117A1DC48003C047D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B5D7A6B17A1DC48003C047D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../orooso-lib-ios\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/Vendor/Flurry\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B5D7A6C17A1DC48003C047D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../orooso-lib-ios\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)",
+					"\"$(SRCROOT)/Vendor/Flurry\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B5D7A6E17A1DC48003C047D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhaleHunter/Threshr-Prefix.pch";
+				INFOPLIST_FILE = "WhaleHunter/Threshr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = threshr;
+				PROVISIONING_PROFILE = "a168affa-ce70-4217-8b15-6bb357477c89";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B5D7A6F17A1DC48003C047D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhaleHunter/Threshr-Prefix.pch";
+				INFOPLIST_FILE = "WhaleHunter/Threshr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = threshr;
+				PROVISIONING_PROFILE = "7e7ef4b2-9428-4784-8f2d-ee4c645f88d6";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B5D7A3F17A1DC48003C047D /* Build configuration list for PBXProject "Threshr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5D7A6B17A1DC48003C047D /* Debug */,
+				5B5D7A6C17A1DC48003C047D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5D7A6D17A1DC48003C047D /* Build configuration list for PBXNativeTarget "Threshr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5D7A6E17A1DC48003C047D /* Debug */,
+				5B5D7A6F17A1DC48003C047D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B5D7A3C17A1DC48003C047D /* Project object */;
+}
