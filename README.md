@@ -2,7 +2,7 @@
 
 ## Folder Structure
 
-This project depends on [orooso-lib-ios](https://github.com/Orooso/orooso-lib-ios). Make sure both projects share a common root folder and that both use their GitHub repository names as their folders. For example: `/DemoFolder/whalehunter` and `/DemoFolder/orooso-lib-ios`.
+This project depends on [orooso-lib-ios](https://github.com/Vondelbaan/orooso-lib-ios). Make sure both projects share a common root folder and that both use their GitHub repository names as their folders. For example: `/DemoFolder/whalehunter` and `/DemoFolder/orooso-lib-ios`.
 
 ## Compiling For The First Time
 
